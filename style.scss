@@ -418,7 +418,7 @@ h3 {
 
 
 /*=====| 7. Courses  |=====*/
-.courses {
+.shape {
 	&:before, &:after {
 		content: "";
 		position: absolute;
@@ -427,6 +427,8 @@ h3 {
 		background-image: url("img/Shape.svg");
 		background-size: cover;
 	}
+}
+.courses {
 	&:before {
 		top: 0;
 		left: -430px;
@@ -562,15 +564,14 @@ h3 {
 /*=====| 9. Subscribe  |=====*/
 .subscribe {
 	&:before {
-		content: "";
-		position: absolute;
 		bottom: 0;
 		right: -80px;
 		height: 200px;
 		width: 200px;
-		background-image: url("img/shape.svg");
-		background-size: cover;
 		transform: rotate(90deg);
+	}
+	&:after {
+		display: none;
 	}
 }
 .subscribe-fild {
