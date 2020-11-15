@@ -2,8 +2,8 @@
         About          
 =========================
 /*
- Template Name: HeyU - Apps Landing Page 
- Template URI: https://mdsumonmia.me/template/heyu
+ Template Name: Eduka - Educational Website Template
+ Template URI: https://mdsumonmia.me/template/eduka
  Author URI: https://mdsumonmia.me/
 */
 
