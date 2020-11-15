@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
         About          
 =========================
@@ -383,13 +382,14 @@ h3 {
   margin: 10px 0 50px 0; }
 
 /*=====| 7. Courses  |=====*/
-.courses:before, .courses:after {
+.shape:before, .shape:after {
   content: "";
   position: absolute;
   height: 600px;
   width: 600px;
   background-image: url("img/Shape.svg");
   background-size: cover; }
+
 .courses:before {
   top: 0;
   left: -430px; }
@@ -500,16 +500,14 @@ h3 {
 
 /*=====| 9. Subscribe  |=====*/
 .subscribe:before {
-  content: "";
-  position: absolute;
   bottom: 0;
   right: -80px;
   height: 200px;
   width: 200px;
-  background-image: url("img/shape.svg");
-  background-size: cover;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg); }
+.subscribe:after {
+  display: none; }
 
 .subscribe-fild {
   background: #e9edff;
